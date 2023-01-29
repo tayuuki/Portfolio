@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* 共通部分　*/
+html {
+	font-size: 100%;
+}
+
+body {
+	margin: 0;
+	font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGohic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	line-height: 1.7;
+	color: rgb(136, 0, 34);
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	text-align: line-left;
+	color: #ffffff;
+	font-size: 30px
+}
+
+h2 {
+	margin: 5%;
+	text-align: center;
+	color: #4f0090;
+	font-size: 60px
+}
+
+.page-header {
+    padding: 0;
+	background-position: left;
+}
+.wrapper {
+	margin: 0 auto;
+	padding-right: 4%;
+}
+.icon {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	background-position: left;
+}
+
+/*　ホーム　*/
+#home {
+	background-image: url(/Users/yuukitachibana/Documents/HTML/official_yuukitachibana.html/img/big-bg.jpg);
+	height: 520px;
+	margin-bottom: 40px;
+}
+
+/* フッター */
+footer {
+	background: rgb(97, 220, 220);
+	text-align: center;
+	padding: 26px 0;
+}
+footer {
+	color: azure;
+	font-size: 0.875rem;
+}
+
+/* ホビー */
+hobby {
+	font-size: 5px;
+}
